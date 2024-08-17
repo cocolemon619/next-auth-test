@@ -1,2 +1,4 @@
 # next-auth-test
-NextAuth.jsを試してみる
+nextのauth系を試してみる
+- NextAuth.jsを試してみる
+- 
