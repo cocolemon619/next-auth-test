@@ -19,6 +19,7 @@ export const authConfig: NextAuthConfig = {
         // ここでsignInが必要な際は、/loginに遷移させるようにしている
         signIn: '/login',
         // signInの他にサインアウト時の遷移先を決めるsignOutなどのいくつかの設定が可能らしい
+        signOut: '/login'
     },
     callbacks: {
         // ルートに対してアクセスがあったときに、認証されている/認証されていないでリダイレクトしたりしなかったりする処理を書く
